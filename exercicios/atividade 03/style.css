@@ -10,13 +10,13 @@
 header{
     background-color: black;
     color: white;
-    height: 250px;
+    text-align: center;
     margin: 0px;
     
 }
 header h1{
     
-    text-align: center;
+    
     font-size: 10vw;
     padding-top: 50px;
     
@@ -25,10 +25,10 @@ header h1{
     
     
 }
-header p{
-    
+.titulo{
     text-align: center;
-    padding-bottom: 50px;
+    padding: 0px 0px 50px 0px;
+    font-size: 1em;
     
 }
 header a{
@@ -41,37 +41,32 @@ header a:hover{
     text-decoration: underline;
     color: white;
 }
-main p{
+p{
     font-family: 'Sriracha', 'cursive';
     
     padding-top: 10vh;
-    padding-left: 3vh;
-    padding-bottom: 50px;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     font-size: 3.5vw;
     text-align:start;
     line-height: 2em;
 }
-main section{
-    background: black url(imagens/background001.jpg) center center no-repeat 
+#img01{
+    background: black url(imagens/background001.jpg) right center no-repeat 
             fixed;
-            background-size: 100% 100%;
+            background-size: cover;
             position: relative;
 }
 .conteudo{
     display: inline-block;
-    background-color:rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.493);
     color: white;
-    width: 535px;
-    padding-left: 25px;
-    padding-top: 50px;
-    
-    
     
 }
 #img02{
-    background: black url(imagens/background002.jpg) center center no-repeat 
+    background: black url(imagens/background002.jpg) right center no-repeat 
             fixed;
-            background-size: 100% 100%;
+            background-size: cover;
 }
 footer p{
     background-color: black;
