@@ -61,6 +61,8 @@ p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.493);
     color: white;
+    padding: 0px 5px 0px 5px;
+    margin: 100px 0px 100px 30px ;
     
 }
 #img02{
