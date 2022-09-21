@@ -45,6 +45,7 @@ main p{
     width: 535px;
     padding-top: 70px;
     padding-left: 25px;
+    padding-bottom: 50px;
     font-size: 2.7em;
     text-align:start;
     line-height: 2em;
@@ -53,13 +54,29 @@ main section{
     background: black url(imagens/background001.jpg) center center no-repeat 
             fixed;
             background-size: 100% 100%;
+            position: relative;
 }
-.flor{
+.conteudo{
     display: inline-block;
     background-color:rgba(0, 0, 0, 0.514);
     color: white;
     width: 535px;
     padding-left: 25px;
     padding-top: 50px;
+    
+    
+    
+}
+#img02{
+    background: black url(imagens/background002.jpg) center center no-repeat 
+            fixed;
+            background-size: 100% 100%;
+}
+footer p{
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
 }
 
