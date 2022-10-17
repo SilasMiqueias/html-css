@@ -10,9 +10,27 @@
     <form action="" method="get">
         <p><label for="inum">Número</label>
             <input type="range" name="num" id="inum" min="0" max="10"
-             oninput="inum.innerHTML = Number(inum.value)">
-            <output id="inum">5</output>
+             oninput="ivum.innerHTML = Number(inum.value)">
+            <output id="ivum">5</output>
+        </p>
+        <p>
+            <label for="iano"> Ano que voçê nasceu</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2022"  
+            oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="iidade"> sua idade é:</label>
+            <output id="iidade">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
+    <script>
+        let atual = new Date().getFullYear
+        iidade.innerHTML = Number(atual) - Number(iano.value)
+    </script>
 </body>
 </html>
