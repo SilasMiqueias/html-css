@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(184, 184, 184, 0.829);
+}
+header{
+    background-color: rgb(172, 172, 172);
+}
+header > h1{
+    padding: 20px;
+    
+}
+menu>a{
+    padding: 10px;
+    background-color: gray;
+}
+article{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+article>h1{
+    text-align: center;
+    padding: 10px;
+}
+article>p{
+    padding: 10px;
+    text-indent: 25px;
+    line-height: 1.3em;
+}
