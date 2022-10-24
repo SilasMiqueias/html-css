@@ -11,15 +11,27 @@ body, html{
     background-color: rgba(184, 184, 184, 0.829);
 }
 header{
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(194, 194, 194);
 }
 header > h1{
+    text-align: center;
     padding: 20px;
     
 }
-menu>a{
+menu{
+    display: block;
+}
+menu a{
+    display: block;
+    background-color: rgb(134, 134, 134);
+    text-decoration: none;
+    text-align: center;
+    color: white;
     padding: 10px;
-    background-color: gray;
+    border: 1px solid rgb(97, 97, 97);
+}
+menu a:hover{
+    background-color: rgb(165, 165, 165);
 }
 article{
     width: 700px;
@@ -38,4 +50,5 @@ article>p{
     padding: 10px;
     text-indent: 25px;
     line-height: 1.3em;
+    text-align: justify;
 }
